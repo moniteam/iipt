@@ -109,30 +109,8 @@ ul {
 img {
     vertical-align: top;
 }
-h1 {
-    font-size: inherit;
-    font-weight: 400;
-}
-h2 {
-    font-size: inherit;
-    font-weight: 400;
-}
-h3 {
-    font-size: inherit;
-    font-weight: 400;
-}
-h4 {
-    font-size: inherit;
-    font-weight: 400;
-}
-h5 {
-    font-size: inherit;
-    font-weight: 400;
-}
-h6 {
-    font-size: inherit;
-    font-weight: 400;
-}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
 .logo_image {
     background-image: url("../img/logo_goldenrod.svg");
     max-width: 120px;
