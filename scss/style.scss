@@ -24,12 +24,7 @@
         box-sizing: border-box;
     }
 }
-&:focus {
-    outline: none;
-}
-&:active {
-    outline: none;
-}
+
 a {
     &:focus {
         outline: none;
@@ -109,7 +104,15 @@ ul {
 img {
     vertical-align: top;
 }
-h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
 
 .logo_image {
     background-image: url("../img/logo_goldenrod.svg");
@@ -191,7 +194,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    order: 1;
 }
 .link_wrapper {
     height: 200px;
@@ -297,4 +299,24 @@ address {
     margin-top: 30px;
     margin-bottom: 15px;
     font-family: "Russo One";
+}
+
+.some_content {
+    font-size: 14px;
+    background-color: lightcyan;
+    padding: 20px;
+
+    .history_content {
+        display: none;
+        &:target {
+            display: block;
+        }
+    }
+
+    .structure_content {
+        display: none;
+        &:target {
+            display: block;
+        }
+    }
 }
