@@ -319,4 +319,32 @@ address {
             display: block;
         }
     }
+
+    .technology_content {
+        display: none;
+        &:target {
+            display: block;
+        }
+    }
+
+    .equipmet_content {
+        display: none;
+        &:target {
+            display: block;
+        }
+    }
+
+    .scients_results_content {
+        display: none;
+        &:target {
+            display: block;
+        }
+    }
+
+    .scients_works_content {
+        display: none;
+        &:target {
+            display: block;
+        }
+    }
 }

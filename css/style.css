@@ -460,3 +460,35 @@ address a:active {
 .some_content .structure_content:target {
   display: block;
 }
+
+.some_content .technology_content {
+  display: none;
+}
+
+.some_content .technology_content:target {
+  display: block;
+}
+
+.some_content .equipmet_content {
+  display: none;
+}
+
+.some_content .equipmet_content:target {
+  display: block;
+}
+
+.some_content .scients_results_content {
+  display: none;
+}
+
+.some_content .scients_results_content:target {
+  display: block;
+}
+
+.some_content .scients_works_content {
+  display: none;
+}
+
+.some_content .scients_works_content:target {
+  display: block;
+}
