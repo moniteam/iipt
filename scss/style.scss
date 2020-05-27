@@ -356,21 +356,34 @@ address {
         padding: 10px;
     }
 
-    .back_to_nav_link {
+    .main_back_to_nav_link_wrapper {
         display: flex;
+        width: 150px;
+        height: 30px;
         justify-content: center;
+        align-items: center;
+        align-self: center;
 
-        .back_to_nav {
-            width: 150px;
-            height: 30px;
-            background-color: goldenrod;
-            transition: 0.1s;
-            justify-items: center;
+        .back_to_nav_link {
+            display: flex;
+            justify-content: center;
             align-items: center;
+            text-align: center;
 
-            &:hover {
-                background-color: khaki;
-                transition: 0.3s;
+            .back_to_nav {
+                width: 150px;
+                height: 30px;
+                background-color: goldenrod;
+                transition: 0.1s;
+                display: flex;
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+
+                &:hover {
+                    background-color: khaki;
+                    transition: 0.3s;
+                }
             }
         }
     }
