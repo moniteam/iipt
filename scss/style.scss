@@ -366,6 +366,7 @@ address {
 
         .back_to_nav_link {
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             text-align: center;
